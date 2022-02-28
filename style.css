@@ -1,4 +1,4 @@
-
+/*********** ENTIRE WEBSITE ************/
 body {
   margin: 0;
   font-family: 'Open Sans', Helvetica, sans-serif;
@@ -24,15 +24,9 @@ body {
   padding: 1%;
   width: 20%;
   float:  left;
-
 }
 
 /*********** SIDE NAV ************/
-
-h2{
-  font-size:  20px;
-}
-
 #sidenav {
   height: 100vh;
   width: 20%;
@@ -40,6 +34,9 @@ h2{
   float: left;
 }
 
+h2{
+  font-size:  20px;
+}
 
 #links {
   list-style: none;
@@ -47,8 +44,9 @@ h2{
 
 .active{
   background-color: #FFF;
+  text-decoration: underline;
+  font-weight: 900;
 }
-
 
 ul{
   padding: 0%;
@@ -63,14 +61,12 @@ a{
   color:  #000;
 }
 
-
 a:hover{
   text-decoration:  underline;
 }
 
 
 /*********** HOME PAGE CONTENT************/
-
 #content {
   float: left;
   text-align: left;
