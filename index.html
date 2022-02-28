@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <!-- styles -->
         <link rel="stylesheet" type="text/css" href="style.css">
         <!-- fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=OpenSans' rel='stylesheet'>
         <!-- title -->
         <title>CMU Health Services Home Page</title>
+        <!-- encoding -->
+        <meta charset="utf-8"/>
     </head>
 
 
     <body>
         <div id="topnav">
-            <img src="logo.png" id="logo">
+            <img src="logo.png" alt="CMU logo" id="logo">
                 <a href="#profile">Profile</a>
                 <a href="#alerts">Alerts</a>
         </div>
 
 
         <div id="sidenav">
-            <h2>
             <ul id="links">
-                <li class='active'> Home</li>
-                <li><a href="#appointments">Appointments</a></li>
-                <li><a href="#labresults">Lab Results</a></li>
-                <li><a href="#forms">Forms</a></li>
+                <li class="h2" id="active"> Home</li>
+                <li class="h2"><a href="#appointments">Appointments</a></li>
+                <li class="h2"><a href="#labresults">Lab Results</a></li>
+                <li class="h2"><a href="#forms">Forms</a></li>
             </ul>
-        </h2>
         </div>
 
 
         <div id="content">
             <h1> Quick Actions </h1>
-                <button><a class="buttonlink" href="productdetail.html">Schedule COVID Test</a> </button>
+                <a class="buttonlink" href="productdetail.html">Schedule COVID Test</a>
                 <br>
-                <button> <a class="buttonlink" href="productbrowsing.html"> Schedule New Appointment</a> </button>
+                <a class="buttonlink" href="productbrowsing.html"> Schedule New Appointment</a>
 
             <h1> Upcoming Appointments </h1>
                 <table id="upcoming-appointments-tb">
